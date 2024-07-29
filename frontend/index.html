@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter DApp</title>
+</head>
+<body>
+    <h1>Twitter DApp</h1>
+    <div>
+        <button id="connectButton">Connect to MetaMask</button>
+    </div>
+    <div>
+        <h2>Create Profile</h2>
+        <input type="text" id="displayName" placeholder="Display Name">
+        <input type="text" id="bio" placeholder="Bio">
+        <button id="createProfileButton">Create Profile</button>
+    </div>
+    <div>
+        <h2>Create Tweet</h2>
+        <textarea id="tweetContent" placeholder="What's happening?"></textarea>
+        <button id="createTweetButton">Tweet</button>
+    </div>
+    <div id="tweetsContainer">
+        <h2>Tweets</h2>
+        <!-- Tweets will be appended here -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
